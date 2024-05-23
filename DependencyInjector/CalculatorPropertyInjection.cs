@@ -14,7 +14,7 @@ namespace DependencyInjector {
       }
       return 0; //throw error in production version
     }
-    public string CalculateString(MathLibrary.IMathOperation mathOperation, double parameter1, double parameter2) {
+    public string CalculateString(double parameter1, double parameter2, MathLibrary.IMathOperation? mathOperation = null) {
       if (mathOperation != null) {
         _mathOperation = mathOperation;
       }
