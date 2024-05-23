@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MathLibrary {
-  internal class Modulus : IMathOperation {
+  public class Modulus : IMathOperation {
     public double Execute(double parameter1, double parameter2) {
       return parameter1 % parameter2;
     }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MathLibrary {
-  internal class Power : IMathOperation {
+  public class Power : IMathOperation {
     public double Execute(double parameter1, double parameter2) {
       return Math.Pow(parameter1, parameter2);
     }
